@@ -32,8 +32,11 @@ button {
 }
 .imageContainer {
   height: 25vh;
-  width: 20vw;
-  padding: 0.8vh;
+  width: 17vw;
+  padding-left: 0.4vw;
+  padding-right: 0.4vw;
+  padding-top: 0;
+  padding-bottom: 0;
   display: inline-block;
   margin: 0;
 }

@@ -15,7 +15,7 @@ function App() {
   };
 
   const imageComponents = imageArray.map((DogImage) => {
-    return <DogItem DogImage={DogImage} />;
+    return <DogItem DogImage={DogImage} key={DogImage.message} />;
   });
 
   if (imageArray.length > 1) {
