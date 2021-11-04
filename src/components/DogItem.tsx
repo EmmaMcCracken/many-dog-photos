@@ -3,7 +3,7 @@ export interface DogImage {
   status: string;
 }
 
-export interface DogItemProps {
+interface DogItemProps {
   DogImage: DogImage;
 }
 
