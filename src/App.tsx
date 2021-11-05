@@ -20,6 +20,7 @@ function App() {
 
   if (imageArray.length > 1) {
     imageComponents.shift();
+    imageComponents.reverse();
   }
 
   return (
